@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-<h1><?php
-	echo get_bloginfo( 'name' ); ?></h1>
+
+<?php get_template_part('template-parts/front-page/front', 'page'); ?>
+
 <div class="">
 	<?php
 	if ( have_posts() ) :
