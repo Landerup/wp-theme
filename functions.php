@@ -62,7 +62,7 @@ if ( ! function_exists( 'first_theme_setup' ) ) {
 		// Add theme support for Translation
 		//load_theme_textdomain( 'wcmtheme', get_template_directory() . '/language' );
 
-		add_image_size( 'wcm-gallery', '500', '300', true );
+		add_image_size( 'first_theme', '150', '150', true );
 	}
 }
 add_action( 'after_setup_theme', 'first_theme_setup' );
@@ -98,6 +98,7 @@ add_filter( 'nav_menu_css_class', 'social_link_classes', 10, 4 );
  * https://developer.wordpress.org/reference/functions/register_post_type/
  *
  */
+/*
 function my_custom_post_type() {
 	register_post_type( 'wcm_travel', [
 		'labels'      => [
@@ -173,6 +174,7 @@ function my_custom_post_type() {
 }
 
 add_action( 'init', 'my_custom_post_type', );
+*/
 
 /**
  * Registrera Custom Taxonomies
