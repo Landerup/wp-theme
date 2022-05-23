@@ -11,10 +11,6 @@
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Om oss</a></li>
     </ul>
 
-	<?php wp_nav_menu( [
-			'theme_location' => 'footer',
-			'container' => 'nav', ]); ?>
-
 </footer>
 <?php wp_footer(); ?>
 </body>

@@ -98,7 +98,7 @@ add_filter( 'nav_menu_css_class', 'social_link_classes', 10, 4 );
  * https://developer.wordpress.org/reference/functions/register_post_type/
  *
  */
-/*
+
 function my_custom_post_type() {
 	register_post_type( 'wcm_travel', [
 		'labels'      => [
@@ -174,7 +174,7 @@ function my_custom_post_type() {
 }
 
 add_action( 'init', 'my_custom_post_type', );
-*/
+
 
 /**
  * Registrera Custom Taxonomies
