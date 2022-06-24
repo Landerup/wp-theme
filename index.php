@@ -4,13 +4,11 @@
 	<?php
 	if ( have_posts() ) :
 		while ( have_posts() ) : the_post(); ?>
-			<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-				<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-				<div id="our-post-thumbnail">
-					<?php the_post_thumbnail(); ?>
-				</div>
+            <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+                <h1><?php the_title(); ?></h1>
+				<img class="card-img-top" src="<?php the_post_thumbnail_url('first_theme'); ?>" alt="Card image cap">
 				<?php the_content(); ?>
-			</article>
+            </article>
 		<?php
 		endwhile;
 
