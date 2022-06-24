@@ -9,7 +9,7 @@
     </head>
     <body>
 	    <h1>Nu blev det tokigt</h1>
-        <p>Kanske vill du sökka efter något.</p>
+        <p>Kanske vill du söka efter något.</p>
         <?php echo get_search_form(); ?>
     </body>
 </html>
